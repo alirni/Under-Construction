@@ -108,7 +108,7 @@ body {
 
 .content {
   align-self: center;
-
+  padding-top: 11em;
   display: -webkit-flex;
   display: flex;
 	-webkit-flex-direction: row;
@@ -117,7 +117,7 @@ body {
 
 .title {
   align-self: center;  
-  font-size: 60px;
+  font-size: 100px;
   font-weight: 700;
   color: #242424;
 }
@@ -143,14 +143,14 @@ body {
 }
 
 #loading div {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   margin: 0 2px;
   background-color: #242424;
 
   border-radius: 100%;
   display: inline-block;
-  animation: load 1.4s infinite ease-in-out both;
+  animation: load 1.6s infinite ease-in-out both;
 }
 
 #loading div:nth-child(1) {
@@ -159,4 +159,70 @@ body {
 
 #loading div:nth-child(2) {
   animation-delay: -0.16s;
+}
+
+.logo {
+  align-self: center;
+  margin-top: 13em;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+	-webkit-justify-content: center;
+  justify-content: center;
+}
+
+.github,
+.instagram,
+.telegram {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin: 1em;
+  padding: 0.3em;
+}
+
+.github:hover,
+.instagram:hover,
+.telegram:hover {
+  background-color: #fff;
+}
+
+.github:hover {
+  border-radius: 100%;
+}
+
+.instagram:hover {
+  border-radius: 8px;
+}
+
+.telegram:hover {
+  border-radius: 100%;
+}
+
+.github {
+  background-image: url('../img/github-logo.png');  
+}
+
+.instagram {
+  background-image: url('../img/instagram.png');
+  
+}
+
+.telegram {
+  background-image: url('../img/telegram.png');
+}
+
+.footer {
+  margin-top: 1em;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #242424;  
+}
+
+.footer a {
+  color: #242424;
+  text-decoration: none;
 }
