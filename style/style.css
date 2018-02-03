@@ -90,7 +90,7 @@ body {
   align-self: center;
   background-color: #f5f5f56b;
   width: 70em;
-  height: 40em;
+  height: 35em;
   padding: 5em;
   border-radius: 10px;
   direction: rtl;
@@ -108,7 +108,7 @@ body {
 
 .content {
   align-self: center;
-  padding-top: 11em;
+  padding-top: 10em;
   display: -webkit-flex;
   display: flex;
 	-webkit-flex-direction: row;
@@ -116,7 +116,7 @@ body {
 }
 
 .title {
-  align-self: center;  
+  align-self: center;
   font-size: 100px;
   font-weight: 700;
   color: #242424;
@@ -129,7 +129,7 @@ body {
 
 #loading {
   align-self: center;
-  margin-right: 0.5em;  
+  margin-right: 0.5em;
   /* direction: ltr; */
   /* position: fixed;
   top: 0;
@@ -163,7 +163,7 @@ body {
 
 .logo {
   align-self: center;
-  margin-top: 13em;
+  margin-top: 10em;
   display: flex;
   -webkit-flex-direction: row-reverse;
 	flex-direction: row-reverse;
@@ -202,12 +202,12 @@ body {
 }
 
 .github {
-  background-image: url('../img/github-logo.png');  
+  background-image: url('../img/github-logo.png');
 }
 
 .instagram {
   background-image: url('../img/instagram.png');
-  
+
 }
 
 .telegram {
@@ -219,7 +219,7 @@ body {
   text-align: center;
   font-size: 12px;
   font-weight: 700;
-  color: #242424;  
+  color: #242424;
 }
 
 .footer a {
